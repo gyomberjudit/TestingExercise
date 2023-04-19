@@ -1,10 +1,12 @@
-import org.example.ProgressBarPage;
+package tests;
+
+import pages.ProgressBarPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
 
-public class ProgressBarTest extends BaseTest{
+public class ProgressBarTest extends BaseTest {
 
     ProgressBarPage progressBarPage;
     @Test
