@@ -16,7 +16,7 @@ public class AlertTest extends BaseTest {
         alertPage.navigate();
 
         alertPage.runJS();
-        Thread.sleep(1500);
+        wait();
         alertPage.enterInputName(name);
         alertPage.handleAlertBoxAccept();
         boolean actual = alertPage.checkInputMessage(inputMessage);
