@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class RadioButtonTest {
+public class RadioButtonTest extends BaseTest{
 }

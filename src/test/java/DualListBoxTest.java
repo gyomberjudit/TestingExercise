@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class DualListBoxTest {
+public class DualListBoxTest extends BaseTest{
 }

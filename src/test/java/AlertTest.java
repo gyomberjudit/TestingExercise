@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class AlertTest {
+public class AlertTest extends BaseTest{
 }
