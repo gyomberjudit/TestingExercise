@@ -21,8 +21,7 @@ public class InputFieldPage extends BasePage{
         driver.navigate().to(URL);
     }
 
-    public void enterInputA(String data) throws InterruptedException {
-        scrollToElement(INPUT_A);
+    public void enterInputA(String data) {
         driver.findElement(INPUT_A).sendKeys(data);
     }
 
