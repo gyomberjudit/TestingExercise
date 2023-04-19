@@ -21,12 +21,6 @@ public class AlertPage extends BasePage{
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("myPromptFunction()");
     }
-
-    /*public void handleAlertBox(String name) {
-        driver.switchTo().alert().sendKeys(name);
-        driver.switchTo().alert().accept();
-        return driver.switchTo().alert().getText();
-    }*/
     public void enterInputName(String name)
     {
         driver.switchTo().alert().sendKeys(name);
